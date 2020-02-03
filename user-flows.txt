@@ -1,0 +1,27 @@
+landing - 
+
+  When a user intitially visits they will be asked to login or signup. If they have previously signed up they can enter
+  their username/email and password then submit. If the username/email exists in the database and the password matches 
+  the username they will be sent to thier profile. New users just need to fill in the 'repeat password' field in a addtion to 
+  the username/email and password fields then submit. Their given information will be validated and if it passes they will be
+  and sent to their new profile. 
+  
+landing --->
+     user enters valid username or email plus password ----->  user profile
+     user enters invalid username or email or password -----> error message
+     user enters valid username email and password plus matching repeat of password ----> user profile with registration in background
+     
+profile--->
+
+  user clicks on playlist title ---> playlist expands to show all songs plus button to update
+  user clicks explore button ---> lists 
+  user clicks plus button in expanded list ---> createList with all fields disabled eecxept 'tags' 
+
+
+
+lists ---->
+  user clicks other users playlist ---> expands playlist and adds rating input. 
+  user enters value into search field ---> filters all lists and returns list of those that meet search criteria
+  
+
+
