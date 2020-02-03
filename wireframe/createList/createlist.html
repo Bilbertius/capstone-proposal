@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="createlist.css">
+</head>
+
+<body>
+  <header>
+    <h1>JamListIt</h1>
+    <ul class="nav-list">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#library">Library</a></li>
+      <li><a href="#explorer">Public Lists</a></li>
+    </ul>
+
+  </header>
+  <section class="new-list-creator">
+    <form action="" class="newlist">
+      <ul>
+        <li>
+          <label for="songname">Song Title</label>
+          <input id="songname" type='text' required />
+        </li>
+        <li>
+          <label for="Band">band</label>
+          <input type='text' required />
+        </li>
+        <li>
+          <label for="venue">Venue</label>
+          <input id='venue' type='text' required />
+        </li>
+        <li>
+          <label for="date">Date</label>
+          <input id="date" type='date' required />
+        </li>
+        <li>
+          <label for="rating">Rating 1-10</label>
+          <input id="rating" type='text' required />
+        </li>
+        <li>
+          <label for="tags">Tags</label>
+          <textarea id="tags" rows="4" required></textarea>
+        </li>
+      </ul>
+      <button type="submit">Add</button>
+    </form>
+  </section>
+  <section class="list-preview">
+
+  </section>
+</body>
+
+</html>

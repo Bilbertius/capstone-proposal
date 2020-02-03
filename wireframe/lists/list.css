@@ -1,0 +1,66 @@
+* { box-sizing: border-box;}
+
+body{margin:0 auto;}
+header  {
+  display: flex;
+  padding: 5%; 
+  background-color: hsl(0, 0%, 50%);
+  color: aliceblue;
+  justify-content: center;
+  align-content: center;
+
+}
+header h1 {
+  font-size: 1.4em;
+  margin: auto 2vw;
+}
+
+
+header ul.nav-list {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  color: white;
+  align-content: center;
+
+}
+
+header ul li {
+  display: flex;
+
+  align-items: center;
+}
+
+header ul li a {
+  text-decoration: none;
+  padding: 0 2vw;
+  color: white;
+}
+
+header.page-header h1{
+  background-color: hsl(0, 0%, 70%);
+}
+
+
+main {
+ display: flex;
+ flex-flow: column nowrap;
+ align-items: center;
+ padding: 0 2vw; 
+}
+
+ul.playlist {
+ background-color: hsl(0, 0%, 67%);
+width: 90vw;
+
+ display: flex;
+ flex-flow: column nowrap;
+ border-radius: 15px;
+ list-style-type: none;
+ margin: 5vh 5vw; 
+ 
+ -webkit-border-radius: 15px;
+ -moz-border-radius: 15px;
+ -ms-border-radius: 15px;
+ -o-border-radius: 15px;
+}Redsu

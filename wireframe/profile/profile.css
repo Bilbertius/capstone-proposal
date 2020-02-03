@@ -1,0 +1,124 @@
+* { box-sizing: border-box;}
+
+body{margin:0 auto;}
+header  {
+  display: flex;
+  padding: 5%; 
+  background-color: hsl(0, 0%, 50%);
+  color: aliceblue;
+  justify-content: center;
+  align-content: center;
+
+}
+header h1 {
+  font-size: 1.4em;
+  margin: auto 2vw;
+}
+
+header.page-header h1{
+  background-color: hsl(0, 0%, 80%);
+}
+
+
+header ul.nav-list {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  color: white;
+  align-content: center;
+
+}
+
+header ul li {
+  display: flex;
+
+  align-items: center;
+}
+
+header ul li a {
+  text-decoration: none;
+  padding: 0 2vw;
+  color: white;
+}
+
+
+
+.ultable {
+          font-size: 12px;
+          color: #333333;
+          width: 80vw;
+          border-width: 1px;
+          border-color: #a9a9a9;
+          border-collapse: collapse;
+        }
+      
+       .ultable th {
+          font-size: 12px;
+          background-color: #b8b8b8;
+          border-width: 1px;
+          padding: 8px;
+          border-style: solid;
+          border-color: #a9a9a9;
+          text-align: left;
+        }
+      
+.ultable tr {
+          background-color: #ffffff;
+        }
+      
+.ultable td {
+          font-size: 12px;
+          border-width: 1px;
+          padding: 8px;
+          border-style: solid;
+          border-color: #a9a9a9;
+        }
+      
+.ultable tr:hover {
+          background-color: #ffff99;
+        }
+
+        section#user-profile {
+          display: flex;
+
+}
+
+section#user-profile div#user-img-container {
+  width: 30vw;
+  
+  height: 30vw;
+  background-color: #ccc;
+
+}
+
+
+section#user-profile h2#user-name {
+
+}
+
+
+
+section#user-profile h3#location {
+  font-weight: lighter;
+  color: rgb(117, 117, 117)
+}
+
+
+
+.odd {
+  background-color: #ccc;
+}
+
+section#user-lists table.tftable tbody tr {
+  display: flex;
+  justify-content: space-between;
+  width: 100vw; 
+  padding: 2vh 2vw; 
+}
+
+section#user-lists table.tftable tbody tr td {
+  display: flex;
+  flex-flow: column nowrap;
+  text
+}
+
