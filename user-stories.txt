@@ -1,0 +1,17 @@
+As a user I will be able to...
+
+  ...create playlists of live recordings where each song is defined with the date and venue of the recording, plus tags 
+  regarding the theme of the imporovisational sections and any other noteworthy elements as well as information regarding
+  where to listen to said recording. 
+  
+  ...update playlists by adding and removing songs.
+  
+  ...update songs with any relevant tags that may help further distiguish a particular live rendition.
+  
+  ...delete songs from playlists or entire playlists.
+  
+  ...read playlists I have created by viewing my profile. 
+  
+  ...read playlists created by other users. 
+  
+  ...update the rating of playlists created by other users by casting a vote that will be used in calculating the average rating.  
